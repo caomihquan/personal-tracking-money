@@ -1,0 +1,14 @@
+@import "tailwindcss";
+:root {
+  --background-primary: #ffffff;
+  --text-color: #000000;
+  --color-bg: #f8f9fa;
+  --border-app: #e0e0e0;
+}
+html.dark-mode {
+  --background-primary: #1e2939;
+  --color-gray-900: #1f2937;
+  --text-color: #ffffff;
+  --color-bg: #222c3b;
+  --border-app: #374151;
+}
